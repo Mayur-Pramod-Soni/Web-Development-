@@ -1,0 +1,19 @@
+  
+CLASS 4 - 14.04.2023 
+
+
+  BUTTEN WITH ANIMATION  
+
+
+
+1. what is url and what is uri diff.and example ?
+
+
+Note : -- by default all layouts point position static .
+
+z -index can't perform task by static position
+
+so, when we want to work with z-index ,then set position : absolute;
+
+z - index is used for point layout as layer.
+

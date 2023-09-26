@@ -1,0 +1,23 @@
+.card{
+    height: 100px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: orange;
+}
+input[type="text"]{
+    font-size: 20px;
+    width: 45%;
+    height: 70px;
+}
+button{
+    height: 70px;
+    width: 200px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+.data{
+    height: 600px;
+    width: 45%;
+    background-color: orange;
+}

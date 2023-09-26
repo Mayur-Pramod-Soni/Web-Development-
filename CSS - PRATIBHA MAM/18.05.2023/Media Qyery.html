@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Media - Query</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+    body
+    {
+        background-color: orange;
+    }
+    #mobile
+    {
+        display:none;
+    }
+    @media (max-width:600px) 
+    {
+        body
+        {
+       background-color: blue;
+    }
+    #mobile
+    {
+         display: block;
+         color: azure;
+    }
+    #window
+    {
+        display: none;
+    }
+     
+    }
+    </style>
+ </head>
+ <body>
+    <h1 id="Window">Welcome to Window Device</h1>
+    <h1 id="mobile">Welcome to mobile Device</h1>
+
+    
+ </body>
+ </html>

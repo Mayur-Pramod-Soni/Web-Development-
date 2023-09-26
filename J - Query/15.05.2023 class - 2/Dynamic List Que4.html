@@ -1,0 +1,33 @@
+<!-- Dyanamic List add  -->
+
+<html>
+    <script        
+src="https://code.jquery.com/jquery-3.7.0.js" 
+integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" 
+crossorigin="anonymous"></script>
+
+<body>
+
+<input type="text">
+<button>Add Record</button>
+<ol>
+    <li>Laptop</li>
+</ol>
+
+<script>
+    $(document).ready(function()
+    {
+        $("button").click(function()
+        {
+            var data = $("Input").val()
+            $("ol").append("<li>"+data+"</li>")
+            $("input").val("")
+        })
+    })
+   
+</script>
+</body>
+
+
+    
+</html>

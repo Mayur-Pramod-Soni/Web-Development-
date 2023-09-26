@@ -1,0 +1,112 @@
+. {
+    margin: 0px;
+
+}
+
+
+
+ui li {
+
+    float: left;
+    margin-left: 100px;
+    list-style: none;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 2px;
+
+
+}
+
+ui li:hover {
+    background-color: rgb(1, 9, 7);
+    color: yellow;
+    transform: skew(-30deg);
+    transition: 5s;
+
+}
+
+.cards {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(240, 233, 32);
+    position: relative;
+
+}
+
+.card {
+    width: 30%;
+    height: 100px;
+    margin-left: 35%;
+    margin-top: 50px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 5px 13px 10px purple;
+
+}
+
+.card:hover {
+    /* transform: scale(1.5) rotate(90deg); */
+    transform: translate(105px, 0px);
+    transition: 5s;
+}
+
+@keyframes view1 {
+    0% {
+        background-color: aqua;
+    }
+
+    50% {
+        background-color: cornflowerblue;
+    }
+
+    75% {
+        background-color: gray;
+    }
+
+    100% {
+        background-color: deeppink;
+    }
+}
+
+.card2 {
+    height: 200px;
+    width: 100%;
+    background-color: lightblue;
+    animation-name: view1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes view2 {
+    0% {
+        background-image: url(https://images.wallpapersden.com/image/download/goku-new-dragon-ball-z-art_bGZqa26UmZqaraWkpJRnZWltrWdlaW0.jpg);
+    }
+
+    50% {
+        background-image: url(https://tse1.mm.bing.net/th?id=OIP.QVlOu1Ck0qjjYYQAr5j-lwHaFW&pid=Api&P=0);
+    }
+
+    75% {
+        background-image: url(https://tse2.mm.bing.net/th?id=OIP.lJyM5NfGs4r4ilZK4x_fDQHaJ-&pid=Api&P=0);
+    }
+
+    100% {
+        background-image: url(https://tse4.mm.bing.net/th?id=OIP.m4xwc4vMwh4mn7SnhhFZKAHaJ4&pid=Api&P=0);
+    }
+}
+
+.cards3 {
+    height: 200px;
+    width: 100%;
+    animation-name: view2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    background-repeat: round;
+    /* animation-duration: 5s;
+    animation-iteration-count: infinite; */
+
+}

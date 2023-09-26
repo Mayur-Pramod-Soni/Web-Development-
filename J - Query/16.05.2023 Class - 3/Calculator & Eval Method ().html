@@ -1,0 +1,106 @@
+
+<html>
+    <head>
+        <title>Calculator</title>
+        <style>
+            body
+            {
+                background: #bdc3c7;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            }
+            .card
+            {
+                height: 500px;
+                width: 500px;
+                background-color: white;
+                border-radius: 15px;
+            } 
+            button
+            {
+                height: 50px;
+                width: 80px;
+                border: 0px;
+                background-color: yellowgreen;
+                color: white;
+                transform: skew(-12deg);
+                border-radius: 10px;
+            }
+            button:focus
+            {
+                background-color: black;
+                color: yellowgreen;
+            }
+            input[type='text']
+            {
+                width: 417px;
+                height: 70px;
+                margin-bottom: 60px;
+                margin-top: 25px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1 style="color: rgb(211, 246, 141);">My Calculator</h1>
+            <div class="card">
+                    <table  cellspacing="10">
+                        <tr>
+                            <td colspan="5">
+                                <input type="text" id="txt">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><button onclick="setVal('1')">1</button></td>
+                            <td><button onclick="setVal('2')">2</button></td>
+                            <td><button onclick="setVal('3')">3</button></td>
+                            <td><button onclick="setVal('4')">4</button></td>
+                            <td><button onclick="setVal('5')">5</button></td>
+                        </tr>
+
+                        <tr>
+                            <td><button onclick="setVal('6')">6</button></td>
+                            <td><button onclick="setVal('7')">7</button></td>
+                            <td><button onclick="setVal('8')">8</button></td>
+                            <td><button onclick="setVal('9')">9</button></td>
+                            <td><button onclick="setVal('0')">0</button></td>
+                        </tr>
+                        <tr>
+                            <td><button onclick="setVal('+')">+</button></td>
+                            <td><button onclick="setVal('-')">-</button></td>
+                            <td><button onclick="setVal('*')">*</button></td>
+                            <td><button onclick="setVal('/')">/</button></td>
+                            <td><button onclick="result('=')">=</button></td>
+                        </tr>
+                        <tr>
+                            <td><button>.</button></td>
+                            <td><button>C</button></td>
+                            <td><button>ON</button></td>
+                            <td><button>OFF</button></td>
+                            <td><button>AC</button></td>
+                        </tr>
+                    </table>
+            </div>
+        </center>
+       
+    </body>
+    <script>
+        var data = ""
+        function setVal(v){
+            data +=v 
+           // alert(v)
+           document.getElementById("txt").value=data;
+        }
+        function result(){
+            var d = eval(data);
+            document.getElementById("txt").value=d;
+            data="";
+
+
+        }
+
+    </script>
+</html>

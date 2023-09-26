@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<!-- saved from url=(0141)file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html -->
+<html lang="en" style="--nav-level-spacing: 25px;" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>HC Off-canvas Nav – JavaScript library for creating toggled off-canvas multi-level navigations</title>
+    <meta name="description" content="JavaScript library for creating toggled off-canvas multi-level navigations, allowing endless nesting of submenu elements, supporting swipe gestures, keyboard interactions and ARIA attributes.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:site_name" content="Some Web Media">
+    <meta property="og:title" content="HC Off-canvas Nav – JavaScript library for creating toggled off-canvas multi-level navigations">
+    <meta property="og:description" content="JavaScript library for creating toggled off-canvas multi-level navigations, allowing endless nesting of submenu elements, supporting swipe gestures, keyboard interactions and ARIA attributes.">
+    <meta property="og:url" content="https://somewebmedia.github.io/hc-offcanvas-nav/">
+    <meta property="og:image" content="https://somewebmedia.github.io/hc-offcanvas-nav/hc-offcanvas-nav.png">
+    <link rel="icon" type="image/png" href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/favicon.png">
+    <link rel="stylesheet" href="./Orlando Academy Front Page via Jquery - plug-in_files/icon">
+    <link rel="stylesheet" href="./Orlando Academy Front Page via Jquery - plug-in_files/css">
+    <link rel="stylesheet" href="./Orlando Academy Front Page via Jquery - plug-in_files/demo.css">
+    <script src="./Orlando Academy Front Page via Jquery - plug-in_files/jquery-3.5.1.slim.min.js.download"></script>
+    <script src="./Orlando Academy Front Page via Jquery - plug-in_files/hc-offcanvas-nav.js.download"></script>
+  <style id="hc-offcanvas-1-style">.hc-offcanvas-nav.hc-nav-1 { display: block; }
+.hc-nav-original.hc-nav-1 { display: none; }
+.hc-nav-trigger.hc-nav-1 { display: block; }
+.hc-offcanvas-nav.hc-nav-1 .nav-container { width: 280px; }
+.hc-offcanvas-nav.hc-nav-1.nav-position-left .nav-container { transform: translate3d(-280px, 0, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-position-right .nav-container { transform: translate3d(280px, 0, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-position-top .nav-container { transform: translate3d(0, -688px, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-position-bottom .nav-container { transform: translate3d(0, 688px, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-levels-overlap.nav-position-left li.level-open > .nav-wrapper { transform: translate3d(-25px, 0, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-levels-overlap.nav-position-right li.level-open > .nav-wrapper { transform: translate3d(25px, 0, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-levels-overlap.nav-position-top li.level-open > .nav-wrapper { transform: translate3d(0, -25px, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-levels-overlap.nav-position-bottom li.level-open > .nav-wrapper { transform: translate3d(0, 25px, 0); }
+#container { transition: transform 400ms ease; }
+</style></head>
+
+  <body class="theme-carbon" style=""><nav id="hc-nav-1" class="hc-offcanvas-nav hc-nav-1 nav-levels-expand nav-position-left disable-body touch-device nav-close-button-empty" aria-hidden="true" aria-labelledby="hc-nav-1-nav-title" style=""><div class="nav-container" style=""><div class="nav-wrapper nav-wrapper-0" data-level="0" data-index="0"><div class="nav-content"><h2 id="hc-nav-1-nav-title" class="nav-title">All Categories</h2><div class="nav-close"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-close-button" role="menuitem" tabindex="0" aria-label="Close Menu"><span></span></a></div><ul role="menu" aria-level="1" class="first-nav"><li class="nav-item cryptocurrency nav-parent"><input type="checkbox" id="hc-nav-1-1-0" class="hc-chk" tabindex="-1" data-level="1" data-index="0" value="z8wo92dbapi" checked="false"><div class="nav-item-wrapper"><a href="https://www.google.com/search?q=Crypto" rel="noreferrer" target="_blank" class="nav-item-link" tabindex="0" role="menuitem">Cryptocurrency</a><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-next" aria-label="Submenu: Cryptocurrency" role="menuitem" tabindex="0" aria-controls="menu-z8wo92dbapi" aria-haspopup="false" aria-expanded="false"><span></span></a></div><div class="nav-wrapper nav-wrapper-1" data-level="1" data-index="0"><div class="nav-content"><ul id="menu-z8wo92dbapi" role="menu" aria-level="2"><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Bitcoin</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Ethereum</a></div></li><li class="nav-item add"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-nav-close="false" data-add="[&#39;Litecoin&#39;,&#39;Dogecoin&#39;,&#39;Bitcoin Cash&#39;,&#39;ZCash&#39;]" class="nav-item-link" tabindex="0" role="menuitem">Add Coin</a></div></li></ul></div></div></li><li class="nav-item devices nav-parent"><input type="checkbox" id="hc-nav-1-1-1" class="hc-chk" tabindex="-1" data-level="1" data-index="1" value="pgareztdpi" checked="false"><div class="nav-item-wrapper"><a class="nav-item-link" tabindex="0" role="menuitem" href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" aria-controls="menu-pgareztdpi" aria-haspopup="false" aria-expanded="false"><span>Devices</span><span class="nav-next"><span></span></span></a></div><div class="nav-wrapper nav-wrapper-1" data-level="1" data-index="1"><div class="nav-content"><ul id="menu-pgareztdpi" role="menu" aria-level="2"><li class="nav-item mobile nav-parent"><input type="checkbox" id="hc-nav-1-2-0" class="hc-chk" tabindex="-1" data-level="2" data-index="0" value="gxsizr825yh" checked="false"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem" aria-controls="menu-gxsizr825yh" aria-haspopup="false" aria-expanded="false">Mobile Phones<span class="nav-next"><span></span></span></a></div><div class="nav-wrapper nav-wrapper-2" data-level="2" data-index="0"><div class="nav-content"><ul id="menu-gxsizr825yh" role="menu" aria-level="3"><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Super Smart Phone</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Thin Magic Mobile</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Performance Crusher</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Futuristic Experience</a></div></li></ul></div></div></li><li class="nav-item television nav-parent"><input type="checkbox" id="hc-nav-1-2-1" class="hc-chk" tabindex="-1" data-level="2" data-index="1" value="zccjgywckt" checked="false"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem" aria-controls="menu-zccjgywckt" aria-haspopup="false" aria-expanded="false">Televisions<span class="nav-next"><span></span></span></a></div><div class="nav-wrapper nav-wrapper-2" data-level="2" data-index="1"><div class="nav-content"><ul id="menu-zccjgywckt" role="menu" aria-level="3"><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Flat Superscreen</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Gigantic LED</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Power Eater</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">3D Experience</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Classic Comfort</a></div></li></ul></div></div></li><li class="nav-item camera nav-parent"><input type="checkbox" id="hc-nav-1-2-2" class="hc-chk" tabindex="-1" data-level="2" data-index="2" value="xh7mdl810x" checked="false"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem" aria-controls="menu-xh7mdl810x" aria-haspopup="false" aria-expanded="false">Cameras<span class="nav-next"><span></span></span></a></div><div class="nav-wrapper nav-wrapper-2" data-level="2" data-index="2"><div class="nav-content"><ul id="menu-xh7mdl810x" role="menu" aria-level="3"><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Smart Shot</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Power Shooter</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Easy Photo Maker</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Super Pixel</a></div></li></ul></div></div></li><li class="nav-item nav-item-custom"><div class="nav-custom-content">
+                    <div class="custom-message">
+                      You can add any custom content to your navigation items. This text is just an example.
+                    </div>
+                  </div></li></ul></div></div></li><li class="nav-item magazines nav-parent"><input type="checkbox" id="hc-nav-1-1-2" class="hc-chk" tabindex="-1" data-level="1" data-index="2" value="79agkdsh1yr" checked="false"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#magazines" class="nav-item-link" tabindex="0" role="menuitem">Magazines</a><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-next" aria-label="Submenu: Magazines" role="menuitem" tabindex="0" aria-controls="menu-79agkdsh1yr" aria-haspopup="false" aria-expanded="false"><span></span></a></div><div class="nav-wrapper nav-wrapper-1" data-level="1" data-index="2"><div class="nav-content"><ul id="menu-79agkdsh1yr" role="menu" aria-level="2"><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">National Geographic</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Scientific American</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">The Spectator</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">The Rambler</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Physics World</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Popular Science</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Popular Mechanics</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Sky &amp; Telescope</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Discover</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">New Scientist</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Psychology Today</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Man's Health</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Wired</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Vogue</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Elle</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Cosmopolitan</a></div></li></ul></div></div></li><li class="nav-item store nav-parent"><input type="checkbox" id="hc-nav-1-1-3" class="hc-chk" tabindex="-1" data-level="1" data-index="3" value="dtmz5tmx90l" checked="false"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem" aria-controls="menu-dtmz5tmx90l" aria-haspopup="false" aria-expanded="false">Store<span class="nav-next"><span></span></span></a></div><div class="nav-wrapper nav-wrapper-1" data-level="1" data-index="3"><div class="nav-content"><ul id="menu-dtmz5tmx90l" role="menu" aria-level="2"><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-2-3" class="hc-chk" tabindex="-1" data-level="2" data-index="3" value="378nwmaa3q1" checked="false"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem" aria-controls="menu-378nwmaa3q1" aria-haspopup="false" aria-expanded="false">Clothes<span class="nav-next"><span></span></span></a></div><div class="nav-wrapper nav-wrapper-2" data-level="2" data-index="3"><div class="nav-content"><ul id="menu-378nwmaa3q1" role="menu" aria-level="3"><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-3-0" class="hc-chk" tabindex="-1" data-level="3" data-index="0" value="apql37nnbaj" checked="false"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem" aria-controls="menu-apql37nnbaj" aria-haspopup="false" aria-expanded="false">Women's Clothing<span class="nav-next"><span></span></span></a></div><div class="nav-wrapper nav-wrapper-3" data-level="3" data-index="0"><div class="nav-content"><ul id="menu-apql37nnbaj" role="menu" aria-level="4"><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Tops</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Dresses</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Trousers</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Shoes</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Sale</a></div></li></ul></div></div></li><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-3-1" class="hc-chk" tabindex="-1" data-level="3" data-index="1" value="or1r1yugzuj" checked="false"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem" aria-controls="menu-or1r1yugzuj" aria-haspopup="false" aria-expanded="false">Men's Clothing<span class="nav-next"><span></span></span></a></div><div class="nav-wrapper nav-wrapper-3" data-level="3" data-index="1"><div class="nav-content"><ul id="menu-or1r1yugzuj" role="menu" aria-level="4"><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Shirts</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Trousers</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Shoes</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Sale</a></div></li></ul></div></div></li></ul></div></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Jewelry</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Music</a></div></li><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-2-4" class="hc-chk" tabindex="-1" data-level="2" data-index="4" value="ile9ywtnuzq" checked="false"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem" aria-controls="menu-ile9ywtnuzq-0 menu-ile9ywtnuzq-1" aria-haspopup="false" aria-expanded="false">Grocery<span class="nav-next"><span></span></span></a></div><div class="nav-wrapper nav-wrapper-2" data-level="2" data-index="4"><div class="nav-content"><h3>Fruits</h3><ul id="menu-ile9ywtnuzq-0" role="menu" aria-level="3"><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Citruses and southern fruits</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Exotic fruits</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Apples and pears</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Nuts</a></div></li></ul><h3>Vegetables</h3><ul id="menu-ile9ywtnuzq-1" role="menu" aria-level="3"><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Root vegetables</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Exotic vegetables</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Herbs</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" class="nav-item-link" tabindex="0" role="menuitem">Salads</a></div></li></ul></div></div></li></ul></div></div></li></ul><h3>Examples</h3><ul role="menu" aria-level="1" class="second-nav"><li class="nav-item collections"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#collections" class="nav-item-link" tabindex="0" role="menuitem">Collections <span>3</span></a></div></li><li class="nav-item nolink nav-highlight"><div class="nav-item-wrapper"><span class="nav-item-link">No Link</span></div></li><li class="nav-item disabled"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" disabled="" class="nav-item-link" tabindex="0" role="menuitem">Disabled Link</a></div></li><li class="nav-item add"><div class="nav-item-wrapper"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-nav-close="false" data-add="[&#39;Charts&#39;, &#39;Logs&#39;, &#39;Tests&#39;, &#39;Profile&#39;]" class="nav-item-link" tabindex="0" role="menuitem">Add Item</a></div></li></ul><ul role="menu" aria-level="1" class="bottom-nav"><li class="nav-item github"><div class="nav-item-wrapper"><a href="https://github.com/somewebmedia" rel="noreferrer" target="_blank" class="nav-item-link" tabindex="0" role="menuitem">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>
+                </a></div></li><li class="nav-item email"><div class="nav-item-wrapper"><a href="mailto:somewebmedia@gmail.com" target="_blank" class="nav-item-link" tabindex="0" role="menuitem">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
+                </a></div></li><li class="nav-item ko-fi"><div class="nav-item-wrapper"><a href="https://ko-fi.com/somewebguy" rel="noreferrer" target="_blank" class="nav-item-link" tabindex="0" role="menuitem">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z"></path></svg>
+                </a></div></li></ul></div></div></div></nav>
+
+    <div id="container" style="">
+
+      <header>
+
+        <div class="wrapper cf">
+
+          <nav id="main-nav" class="hc-nav-original hc-nav-1">
+
+            <ul class="first-nav">
+              <li class="cryptocurrency">
+                <a href="https://www.google.com/search?q=Crypto" rel="noreferrer" target="_blank">Cryptocurrency</a>
+                <ul>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Bitcoin</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Ethereum</a></li>
+                  <li class="add">
+                    <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-nav-close="false" data-add="[&#39;Litecoin&#39;,&#39;Dogecoin&#39;,&#39;Bitcoin Cash&#39;,&#39;ZCash&#39;]">Add Coin</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="devices">
+                <span>Devices</span>
+                <ul>
+                  <li class="mobile">
+                    <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Mobile Phones</a>
+                    <ul>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Super Smart Phone</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Thin Magic Mobile</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Performance Crusher</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Futuristic Experience</a></li>
+                    </ul>
+                  </li>
+                  <li class="television">
+                    <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Televisions</a>
+                    <div class="subnav-container">
+                      <ul>
+                        <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Flat Superscreen</a></li>
+                        <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Gigantic LED</a></li>
+                        <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Power Eater</a></li>
+                        <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">3D Experience</a></li>
+                        <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Classic Comfort</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="camera">
+                    <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Cameras</a>
+                    <ul>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Smart Shot</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Power Shooter</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Easy Photo Maker</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Super Pixel</a></li>
+                    </ul>
+                  </li>
+                  <li data-nav-custom-content="">
+                    <div class="custom-message">
+                      You can add any custom content to your navigation items. This text is just an example.
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="magazines">
+                <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#magazines">Magazines</a>
+                <ul>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">National Geographic</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Scientific American</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">The Spectator</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">The Rambler</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Physics World</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Popular Science</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Popular Mechanics</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Sky &amp; Telescope</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Discover</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">New Scientist</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Psychology Today</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Man's Health</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Wired</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Vogue</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Elle</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Cosmopolitan</a></li>
+                </ul>
+              </li>
+              <li class="store">
+                <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Store</a>
+                <ul>
+                  <li>
+                    <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Clothes</a>
+                    <ul>
+                      <li>
+                        <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Women's Clothing</a>
+                        <ul>
+                          <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Tops</a></li>
+                          <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Dresses</a></li>
+                          <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Trousers</a></li>
+                          <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Shoes</a></li>
+                          <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Sale</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Men's Clothing</a>
+                        <ul>
+                          <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Shirts</a></li>
+                          <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Trousers</a></li>
+                          <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Shoes</a></li>
+                          <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Sale</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Jewelry</a></li>
+                  <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Music</a></li>
+                  <li>
+                    <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Grocery</a>
+                    <h3>Fruits</h3>
+                    <ul>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Citruses and southern fruits</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Exotic fruits</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Apples and pears</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Nuts</a></li>
+                    </ul>
+                    <h3>Vegetables</h3>
+                    <ul>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Root vegetables</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Exotic vegetables</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Herbs</a></li>
+                      <li><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#">Salads</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <h3>Examples</h3>
+
+            <ul class="second-nav">
+              <li class="collections"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#collections">Collections <span>3</span></a></li>
+              <li class="nolink" data-nav-highlight="">No Link</li>
+              <li class="disabled"><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" disabled="">Disabled Link</a></li>
+              <li class="add">
+                <a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-nav-close="false" data-add="[&#39;Charts&#39;, &#39;Logs&#39;, &#39;Tests&#39;, &#39;Profile&#39;]">Add Item</a>
+              </li>
+            </ul>
+
+            <ul class="bottom-nav">
+              <li class="github">
+                <a href="https://github.com/somewebmedia" rel="noreferrer" target="_blank">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>
+                </a>
+              </li>
+              <li class="email">
+                <a href="mailto:somewebmedia@gmail.com" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
+                </a>
+              </li>
+              <li class="ko-fi">
+                <a href="https://ko-fi.com/somewebguy" rel="noreferrer" target="_blank">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z"></path></svg>
+                </a>
+              </li>
+            </ul>
+
+          </nav>
+
+          <h1>Orlando Academy</h1>
+
+          <h2>"CENTER FOR DEVELOPMENT OF ADVANCED COMPUTING (CDAC)"</h2>
+
+          <a href="https://twitter.com/orlandocdac" rel="noreferrer" target="_blank" class="git">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>Welcome to Orlando Academy</a>
+
+          <div class="ver">v<span>6.1.5</span></div>
+
+          <a class="toggle hc-nav-trigger hc-nav-1" href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" role="button" aria-label="Open Menu" aria-controls="hc-nav-1" aria-expanded="false">
+            <span></span>CDAC Institute<i>or swipe the screen from edge on mobile ;)</i>
+          </a>
+
+        </div>
+
+      </header>
+
+      <main>
+
+        <div class="wrapper">
+
+          <div class="content">
+
+            <h4></h4>
+
+            <div class="actions position">
+
+              <div><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-demo="{position:&#39;left&#39;}" class="button active">About</a></div>
+
+              <div><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-demo="{position:&#39;right&#39;}" class="button">Faculties</a></div>
+
+              <div><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-demo="{position:&#39;top&#39;, levelSpacing:0}" class="button">Placement</a></div>
+
+              <div><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-demo="{position:&#39;bottom&#39;, levelSpacing:0}" class="button">Address</a></div>
+
+            </div>
+
+            <h4>Theme Mode</h4>
+
+            <div class="actions theme">
+
+              <div><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-demo="{theme:&#39;default&#39;}" class="thumb" title="Default" style="background-image:url(theme-1.png);"></a></div>
+
+              <div><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-demo="{theme:&#39;carbon&#39;}" class="thumb active" title="Dark" style="background-image:url(theme-2.png);"></a></div>
+
+            </div>
+
+            <h4>Levels open type</h4>
+
+            <div class="actions levels">
+
+              <div><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-demo="{levelOpen:&#39;overlap&#39;, levelSpacing:40}" class="button">Register Here</a></div>
+
+              <div><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-demo="{levelOpen:&#39;expand&#39;, levelSpacing:25}" class="button active">Testimonials</a></div>
+
+              <div><a href="file:///C:/Users/ma987/Desktop/Classes%20by%20Pratibha%20Mam/J%20-%20Query/18.05.2023%20Class%20-%205/hc-offcanvas-nav-master/docs/index.html#" data-demo="{levelOpen:false, levelSpacing:25}" class="button">Contact </a></div>
+
+            </div>
+
+            <h4></h4>
+
+            <div class="actions checkboxes">
+
+              <div><label><input type="checkbox" data-demo="{closeOnClick:true}" checked=""><span></span>CDAC Aspirant</label></div>
+
+              <div><label><input type="checkbox" data-demo="{disableBody:true}" checked=""><span></span>CCat Prepation</label></div>
+
+              <div><label><input type="checkbox" data-demo="{pushContent:&#39;#container&#39;}" checked=""><span></span>Write a Review </label></div>
+
+              <div><label><input type="checkbox" data-demo="{navTitle: &#39;All Categories&#39;, levelTitles:true}" checked=""><span></span>Couures Curriculam</label></div>
+
+              <div><label><input type="checkbox" data-demo="{insertClose:true, insertBack:true}" checked=""><span></span>PGDAC Features</label></div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </main>
+
+      <footer>
+
+        <div class="wrapper">
+
+          <a href="https://github.com/somewebmedia" rel="noreferrer" target="_blank" class="swm" title="Some Web Media">
+            <svg xmlns="http://www.w3.org/2000/svg" height="17" viewBox="0 0 430.24 46">
+              <path class="l-1" d="M0,46H44L92,0H48Z"></path>
+              <path class="l-2" d="M237.24,46h-44l-26-24.92L141.24,46h-44l-24-23,22-21.08,24,23L145.24,0h44l26,24.92L241.24,0h44Z"></path>
+              <path class="l-3" d="M386.24,46l-26-24.92L334.24,46h-44l-24-23,22-21.08,24,23L338.24,0h44l48,46h-44Z"></path>
+            </svg>
+          </a>
+
+        </div>
+
+      </footer>
+
+      <script>
+        (function($) {
+          'use strict';
+
+          // call our plugin
+          var Nav = new hcOffcanvasNav('#main-nav', {
+            disableAt: false,
+            customToggle: '.toggle',
+            levelSpacing: 40,
+            navTitle: 'All Categories',
+            levelTitles: true,
+            levelTitleAsBack: true,
+            pushContent: '#container',
+            labelClose: false
+          });
+
+          // add new items to original nav
+          $('#main-nav').find('li.add').children('a').on('click', function() {
+            var $this = $(this);
+            var $li = $this.parent();
+            var items = eval('(' + $this.attr('data-add') + ')');
+
+            $li.before('<li class="new"><a href="#">'+items[0]+'</a></li>');
+
+            items.shift();
+
+            if (!items.length) {
+              $li.remove();
+            }
+            else {
+              $this.attr('data-add', JSON.stringify(items));
+            }
+
+            Nav.update(true); // update DOM
+          });
+
+          // demo settings update
+
+          const update = function(settings) {
+            if (Nav.isOpen()) {
+              Nav.on('close.once', function() {
+                Nav.update(settings);
+                Nav.open();
+              });
+
+              Nav.close();
+            }
+            else {
+              Nav.update(settings);
+            }
+          };
+
+          $('.actions').find('a').on('click', function(e) {
+            e.preventDefault();
+
+            var $this = $(this).addClass('active');
+            var $siblings = $this.parent().siblings().children('a').removeClass('active');
+            var settings = eval('(' + $this.data('demo') + ')');
+
+            if ('theme' in settings) {
+              $('body').removeClass().addClass('theme-' + settings['theme']);
+            }
+            else {
+              update(settings);
+            }
+          });
+
+          $('.actions').find('input').on('change', function() {
+            var $this = $(this);
+            var settings = eval('(' + $this.data('demo') + ')');
+
+            if ($this.is(':checked')) {
+              update(settings);
+            }
+            else {
+              var removeData = {};
+              $.each(settings, function(index, value) {
+                removeData[index] = false;
+              });
+
+              update(removeData);
+            }
+          });
+        })(jQuery);
+      </script>
+
+    </div>
+
+  
+</body></html>

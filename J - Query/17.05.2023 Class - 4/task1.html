@@ -1,0 +1,69 @@
+<script src="https://code.jquery.com/jquery-3.7.0.js"
+ integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" 
+ crossorigin="anonymous">
+</script>
+
+<!-- Used when Event tag is needed i.e. - for dropdown index , in log in form , etc -->
+
+
+<style>
+    .view
+    {
+        height: 300px;
+        width :500px;
+        background-color: coral;
+    }
+</style>
+
+<div class="view"></div>
+
+<button id="s" style="background-color: green;">Show</button>
+<button id="h" style="background-color: red;">Hide</button>
+<button id="t" style="background-color: yellow;">Toggle(To Show/Hide)</button>
+<button id="e" style="background-color: orange;">Show/Hide records</button>
+
+<table border="1" style=" border-spacing: 10px;"></table>
+<script>
+
+    var records = [{Name:"Mayur", Salary:15000000 ,  Profession:"Data Scientist"},
+{Name:"Priya",Salary:120000,Profession:"Jeb - Katari"}]
+
+    $(document).ready(function(){
+        
+        $("#t").click(function(){
+            $(".view").toggle(5000)
+        })
+
+        $("#s").click(function(){
+            $(".view").show(5000)
+        })
+        $("#h").click(function(){
+            $(".view").hide(5000)
+        })
+
+        $("#e").click(function(){
+            records.forEach((e)=>{
+            $("table").append(`
+                <tr><td>${e.Name}</td>
+                    <td>${e.Salary}</td>
+                    <td>${e.Profession}</td>
+                </tr>`)
+            })
+        })
+    })
+
+</script>
+
+<script>
+    var arr = [
+        {
+          name:"Mayur",Salary:580000
+        },
+        {
+            name:"Seeta",Salary:4535114564653
+        }
+    ]
+    arr.forEach((Element)=>{
+      document.write(element.name+" "+Salary+" <br>")
+    })
+</script>

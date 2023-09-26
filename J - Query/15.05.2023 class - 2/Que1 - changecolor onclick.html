@@ -1,0 +1,29 @@
+<!-- W a p to change background color when we click on button -->
+<html>
+    <script        
+src="https://code.jquery.com/jquery-3.7.0.js" 
+integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" 
+crossorigin="anonymous"></script>
+
+<body>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque natus quasi modi inventore sit numquam ab voluptatem error nesciunt aliquid? Dolore, asperiores dolor odio laborum architecto non velit hic sint a nisi. Eos dolore nobis, ipsa at suscipit eius quaerat modi voluptate aliquam ullam asperiores pariatur fuga praesentium veritatis illum!</p>
+
+<button>Change Color</button>
+
+</body>
+
+    <script>
+    
+    $(document).ready(function(){
+        $("button").click(function(){
+        $("body").css("background-color","orange")
+    })})
+
+    $(document).ready(function(){
+        $("button").click(function(){
+        $("body").css("color","red")
+    })})
+</script>
+    
+</html>

@@ -1,0 +1,29 @@
+<!-- w a p to get value from text field and show result in paragraph -->
+
+<html>
+    <script        
+src="https://code.jquery.com/jquery-3.7.0.js" 
+integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" 
+crossorigin="anonymous"></script>
+
+<body>
+<input type="text">
+<button>Get value</button>
+
+<p></p>
+
+</body>
+
+    <script>
+    
+    $(document).ready(function(){
+        $("button").click(function(){
+        var  data = $("input").val()
+        $("p").text(data)
+        // $("button").click(function(){
+        // $("body").css("background-color","orange")
+
+    })})
+</script>
+    
+</html>

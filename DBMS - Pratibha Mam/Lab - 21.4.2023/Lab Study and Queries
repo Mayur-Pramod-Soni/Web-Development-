@@ -1,0 +1,61 @@
+
+
+Query - 1 : WAQ to show user name as capital, userID with username and salary.
+
+User:     userID (primary key auto_increment), username, salary 
+
+outout:   userID, username (Capital), userinfo(User ID+Username), salary.
+
+Ans: 
+
+create table emp101(userid int primary key auto_increment,username char(20),salary int);
+insert into emp101(username,salary) values('jhone',25300),('ramesh',24100),('ganesh',24153),('ravi',142563);
+select userid,upper(username) as name,concat(userid,username) as userInfo,salary from emp101;
+
+Quiry 2:- . w a quiry to find all record given names are: John Raj Mukesh Teena 
+
+Ans : select * from emp101 where username in ('Jhone' ,'Ravi');
++--------+----------+--------+
+| userid | username | salary |
++--------+----------+--------+
+|      1 | john    |  25300 |
+|      4 | ravi     | 142563 |
++--------+----------+--------+
+2 rows in set (0.00 sec)
+
+Query 3 :-  w a quiry to find max salary from table without using aggregate functions
+Ans : 
+
+mysql> select * from emp101 order by salary desc limit 0,1;
++--------+----------+--------+
+| userid | username | salary |
++--------+----------+--------+
+|      4 | ravi     | 142563 |
++--------+----------+--------+
+
+or 
+
+
+mysql> select * from emp101 order by salary desc limit 1;
++--------+----------+--------+
+| userid | username | salary |
++--------+----------+--------+
+|      4 | ravi     | 142563 |
++--------+----------+--------+
+1 row in set (0.00 sec)
+
+Q 4:-  waq to fatch all record start from a and h.
+
+mysql> select * from emp101 where username like 'a%' or username like 'H%';
++--------+----------+--------+
+| userid | username | salary |
++--------+----------+--------+
+|      5 | Adarsh   |  25000 |
+|      6 | Harshit  |  25000 |
+|      7 | Harshita |  28000 |
+|      8 | anita    |  28000 |
++--------+----------+--------+
+4 rows in set (0.00 sec)
+
+
+Q6:- waq to find record acccording  to given salary [user id ,salary username]

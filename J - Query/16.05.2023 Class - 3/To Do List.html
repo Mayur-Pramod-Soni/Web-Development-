@@ -1,0 +1,38 @@
+
+<script src="https://code.jquery.com/jquery-3.7.0.js"
+ integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" 
+ crossorigin="anonymous"></script>
+</script>
+<link rel="stylesheet" href="mystyle.css">
+
+<center>
+    <div class="card">
+    <input type="text">
+    <button >Add Data &RightArrow;</button>
+    </div>
+
+    <div class="data">
+        <center>
+            <!-- <h2><b id="d" ></b><b style="color: red;">Os Classes</b></h2> -->
+            <p>Os Classes</p>
+        </center>
+    </div>
+
+
+</center>
+<script>
+    $(document).ready(function(){
+        var to=new Date();
+        $("button").click(function(){
+            var dt1= $("input").val()
+            var d =new Date()
+            $(".data").prepend(`<center>
+                <div>
+                    <p>${d.toLocaleTimeString()}
+                    ${dt1}</p>
+                </div>
+                </center>`)
+                $("input").val("") 
+        })
+    })
+</script>

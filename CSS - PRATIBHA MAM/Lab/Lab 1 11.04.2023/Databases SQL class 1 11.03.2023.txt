@@ -1,0 +1,18 @@
+Delimeter : --->
+
+Semicolomn ; is use for terminate line 
+
+desc -- strecture;
+
+
+
+
+Query:-->
+
+
+Delimetre @   { Auto auto_increment always used with primary key }
+
+create databases database name ;
+
+ceate table emp (id int primary key auto_increment , name varchar (20));
+

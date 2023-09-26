@@ -1,0 +1,18 @@
+ul li {
+    float: left;
+    margin-left: 100px;
+    list-style: none;
+    height: 20px;
+    width: 100px;
+    background-color: aqua;
+    text-align: center;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+ul li:hover {
+    /* <!--blink when cursor is over there due to hover proprty--> */
+    background-color: black;
+    color: yellow;
+}

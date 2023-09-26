@@ -1,0 +1,30 @@
+<script src="https://code.jquery.com/jquery-3.7.0.js" 
+integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" 
+crossorigin="anonymous"></script>
+
+<style>
+    .store
+    {
+        height: 300px;
+        width: 300px;
+        background-color: yellowgreen;
+        display: none;
+    }
+</style>
+
+<div class="store">
+    <button id="up">up</button>
+</div>
+<button>Down</button>
+
+<script>
+     $(document).ready(function(){
+        $("button").click(function(){
+            $(".store").slideDown(5000)
+        })
+        $("#up").click(function(){
+            $(".store").slideUp(5000)
+        })
+
+     })
+</script>

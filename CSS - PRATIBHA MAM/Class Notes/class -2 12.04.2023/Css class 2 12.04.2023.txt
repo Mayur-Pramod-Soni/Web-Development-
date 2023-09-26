@@ -1,0 +1,23 @@
+CSS class 2 - by pratibha mam
+
+
+id -> # and at a time we can call only onr id .
+
+q1. wap to create onr card based on id and 
+
+
+# External CSS :-- as third party vendor 
+
+               1. EXTERNAL CSS file is save by .css
+
+               2. in source file -> .html , .php , .jsp , .py , etc can be used 
+
+               3. Syntax:-->      <link     />    or     <img src = ""/>
+
+               4. i.e. - <link href = " filename .css " rel="stylesheet" type="text/css"  // to show or connect the link to source file 
+
+
+Que. 1. --- create one page that contain 4 tags h4 tags ---done
+
+
+1. change background color for body ---done 
