@@ -1,0 +1,29 @@
+{
+  "record": [
+    {
+      "id": 101,
+      "Product_Name": "MacBook",
+      "Product_Price": 102000,
+      "Product_Brand": "Apple",
+      "Product_Exp": 4
+    },
+    {
+      "id": 102,
+      "Product_Name": "Laptop",
+      "Product_Price": 95000,
+      "Product_Brand": "Dell",
+      "Product_Exp": 3
+    },
+    {
+      "Product_Name": "Android",
+      "id": 103
+    },
+    {
+      "Product_Name": "Oneplus",
+      "Product_Price": 26000,
+      "Product_Brand": "Android",
+      "Product_Exp": 2,
+      "id": 104
+    }
+  ]
+}
